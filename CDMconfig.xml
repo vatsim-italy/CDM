@@ -2,13 +2,13 @@
 <CDM>
 	<rate ops="40" />
 	<rateLvo ops="10" />
-	<expiredCtot time="25" />
+	<expiredCtot time="15" />
 	<realMode mode="true" />
 	<pilotTobt mode="true" />
 	<autoAtot mode="false" />
 	<invalidateAtTsat mode="true" />
-	<Rates url="" />
-	<Taxizones url="" />
+	<Rates url="https://raw.githubusercontent.com/vatsim-italy/CDM/refs/heads/main/rate.txt" />
+	<Taxizones url="https://raw.githubusercontent.com/vatsim-italy/CDM/refs/heads/main/taxizones.txt" />
 	<Ctot url="" />
 	<sidInterval url="" />
 	<DefaultTaxiTime minutes="15" />
@@ -17,9 +17,6 @@
 	<Debug mode="false" />
 	<FlowRestrictions url="https://ecfmp.vatsim.net/api/v1/plugin" />
 	<vdgsFileType type="3"/>
-	<ftpHost host="" />
-	<ftpUser user="" />
-	<ftpPassword password="" />
 	<sftpConnection mode="true" />
 	<Server mode="true" />
 	<Su_Wait mode="false" />
